@@ -1,0 +1,31 @@
+# Outsource MedClaim — clean URL routing
+# Requires Apache mod_rewrite (standard on cPanel / shared hosting).
+# Safe to keep even if mod_rewrite is disabled — pages still work via their .html paths.
+
+RewriteEngine On
+
+# 1. If someone requests a known page's .html URL directly, send them to the
+#    clean canonical URL (avoids duplicate-content and matches the sitemap).
+RewriteRule ^about-us\.html$ /about-us [R=301,L]
+RewriteRule ^contact-us\.html$ /contact-us [R=301,L]
+RewriteRule ^hipaa-compliance\.html$ /hipaa-compliance [R=301,L]
+RewriteRule ^privacy-policy\.html$ /privacy-policy [R=301,L]
+RewriteRule ^terms-and-conditions\.html$ /terms-and-conditions [R=301,L]
+
+# 2. Serve the matching .html file for a clean-URL request (e.g. /about-us
+#    quietly serves about-us.html). Works automatically for any page you add
+#    later — no need to edit this file again.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^([^.]+)$ $1.html [L]
+
+# Basic caching for static assets (safe no-op if mod_expires isn't enabled)
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+</IfModule>

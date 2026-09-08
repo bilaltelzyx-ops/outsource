@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://outsourcemedicalbillingservices.us/sitemap.xml

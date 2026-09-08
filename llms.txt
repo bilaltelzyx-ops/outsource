@@ -1,0 +1,24 @@
+# Outsource MedClaim
+
+> Outsource MedClaim is a U.S.-based medical billing and revenue cycle management (RCM) company. We provide outsourced medical billing, CPT/ICD-10 coding, denial management, accounts receivable follow-up, credentialing, patient billing, and bilingual virtual medical assistants (VMA) for independent practices, specialty groups, and health systems across all 50 states.
+
+Key facts:
+- AAPC and AHIMA certified coders and billers
+- 98.5%+ first-pass clean claim rate, denial rates reduced to 4% or below
+- EHR/PM integrations include Epic, Cerner, athenahealth, NextGen, and most custom systems
+- HIPAA and HITECH compliant; Business Associate Agreement (BAA) executed with every client
+- Percentage-of-collections, flat-rate, and custom enterprise pricing models
+
+## Pages
+
+- [Homepage](https://outsourcemedicalbillingservices.us/): Overview of medical billing outsourcing services, pricing, specialties served, results, and FAQs.
+- [About Us](https://outsourcemedicalbillingservices.us/about-us): Company mission, areas of expertise, virtual medical assistant services, and commitments to clients.
+- [Contact Us](https://outsourcemedicalbillingservices.us/contact-us): Contact channels, free revenue performance audit request form, and FAQs.
+- [HIPAA Compliance](https://outsourcemedicalbillingservices.us/hipaa-compliance): Data security framework (administrative, physical, and technical safeguards) and staff training practices.
+- [Privacy Policy](https://outsourcemedicalbillingservices.us/privacy-policy): How practice and patient information is collected, secured, and disclosed.
+- [Terms and Conditions](https://outsourcemedicalbillingservices.us/terms-and-conditions): Service scope, client responsibilities, fees, and termination terms for the RCM/VMA agreement.
+
+## Contact
+
+- Phone: (800) 000-0000
+- Email: info@outsourcemedicalbillingservices.us
