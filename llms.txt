@@ -18,6 +18,31 @@ Key facts:
 - [Privacy Policy](https://outsourcemedicalbillingservices.us/privacy-policy): How practice and patient information is collected, secured, and disclosed.
 - [Terms and Conditions](https://outsourcemedicalbillingservices.us/terms-and-conditions): Service scope, client responsibilities, fees, and termination terms for the RCM/VMA agreement.
 
+## Specialty Billing Services
+
+- [Family Medicine Billing](https://outsourcemedicalbillingservices.us/family-medicine-billing): E/M coding accuracy, CCM/TCM billing, and preventive care billing for family medicine practices.
+- [Pediatric Billing](https://outsourcemedicalbillingservices.us/pediatric-billing): Well-child visit coding, immunization billing, and Medicaid/CHIP billing for pediatric practices.
+- [Psychiatric Billing](https://outsourcemedicalbillingservices.us/psychiatric-billing): Time-based psychotherapy coding, mental health parity compliance, and telepsychiatry billing.
+- [Dental Billing](https://outsourcemedicalbillingservices.us/dental-billing): CDT coding, dental insurance verification, and PPO/out-of-network billing optimization.
+- [Optometry Billing](https://outsourcemedicalbillingservices.us/optometry-billing): Vision plan vs. medical insurance billing, diagnostic imaging coding, and dual-payer AR management.
+- [Wound Care Billing](https://outsourcemedicalbillingservices.us/wound-care-billing): Depth-based debridement coding, skin substitute billing, and chronic wound documentation.
+- [Infusion Billing](https://outsourcemedicalbillingservices.us/infusion-billing): Time-based infusion coding, CMS infusion hierarchy rules, and J-code drug billing.
+- [Ambulance Billing](https://outsourcemedicalbillingservices.us/ambulance-billing): EMS transport coding (HCPCS A-codes), mileage billing, and Medicare ambulance fee schedule compliance.
+- [Laboratory Billing](https://outsourcemedicalbillingservices.us/laboratory-billing): Diagnostic, pathology, and molecular lab billing with LIS/EHR integration.
+
+## Service Pages
+
+- [Healthcare Outsource Billing](https://outsourcemedicalbillingservices.us/healthcare-outsource-billing): General overview of outsourced medical billing services for healthcare providers.
+- [Medical Coding Services](https://outsourcemedicalbillingservices.us/medical-coding-services): Outsourced CPT/ICD-10/HCPCS coding with AAPC/AHIMA-certified coders.
+- [Revenue Cycle Management](https://outsourcemedicalbillingservices.us/revenue-cycle-management): End-to-end RCM services covering the full patient revenue journey.
+- [Credentialing Services](https://outsourcemedicalbillingservices.us/credentialing-services): Provider credentialing, payer enrollment, and CAQH profile management.
+
+## Location Pages
+
+- [Medical Billing New Jersey](https://outsourcemedicalbillingservices.us/medical-billing-new-jersey): Medical billing outsourcing tailored to New Jersey's payer landscape and NJHCQC compliance.
+- [Medical Billing Kansas](https://outsourcemedicalbillingservices.us/medical-billing-kansas): Medical billing outsourcing for Kansas healthcare practices.
+- [Physician Billing Virginia](https://outsourcemedicalbillingservices.us/physician-billing-virginia): Physician billing outsourcing for Virginia medical practices.
+
 ## Contact
 
 - Phone: (800) 000-0000
