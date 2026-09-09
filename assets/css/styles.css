@@ -448,6 +448,12 @@ table.compare tbody tr:last-child td, table.compare tbody tr:last-child th { bor
 .subhero p { font-size: clamp(16px, 1.2vw, 18px); line-height: 1.65; color: var(--body-c); margin: 18px auto 0; max-width: 62ch; }
 .subhero__ctas { display: flex; gap: 14px; flex-wrap: wrap; justify-content: center; margin-top: 28px; }
 
+.subhero__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: clamp(32px, 5vw, 64px); align-items: center; }
+.subhero__grid p { margin-left: 0; margin-right: 0; }
+.subhero__grid .subhero__ctas { justify-content: flex-start; }
+.subhero__side .card { margin: 0; }
+.subhero__side .card h3 { margin-top: 20px; }
+
 /* ---------- Legal / long-form document pages ---------- */
 .legal { max-width: 740px; margin: 0 auto; }
 .legal h2 {
