@@ -225,13 +225,15 @@ img { max-width: 100%; }
 .stat-chip__label { font-size: 13.5px; color: var(--footer-text); margin-top: 6px; }
 
 /* ---------- Grids & cards ---------- */
-.grid-cards, .grid-cards--2, .grid-cards--3, .specialty-grid, .benefit-grid, .differentiator-grid, .pricing-grid, .testimonial-grid {
+.grid-cards, .grid-cards--2, .grid-cards--3, .grid-cards--4, .specialty-grid, .benefit-grid, .differentiator-grid, .pricing-grid, .testimonial-grid {
   display: grid;
   gap: 18px;
   margin-top: 38px;
+  align-items: start;
 }
 .grid-cards--2 { grid-template-columns: repeat(auto-fit, minmax(min(300px,100%), 1fr)); }
 .grid-cards--3, .benefit-grid, .differentiator-grid, .testimonial-grid { grid-template-columns: repeat(auto-fit, minmax(min(300px,100%), 1fr)); }
+.grid-cards--4 { grid-template-columns: repeat(auto-fit, minmax(min(260px,100%), 1fr)); }
 .pricing-grid { grid-template-columns: repeat(auto-fit, minmax(min(240px,100%), 1fr)); margin-top: 34px; }
 
 .card, .pricing-card, .differentiator-card, .testimonial-card, .stat-chip, .specialty-tile {
