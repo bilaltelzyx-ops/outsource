@@ -474,6 +474,35 @@ img { max-width: 100%; }
 .site-footer__legal { display: flex; gap: 20px; flex-wrap: wrap; }
 .site-footer__legal a { color: var(--footer-text); }
 
+/* ---------- Inline page content: lists, simple text sections ---------- */
+.content-block { max-width: 760px; }
+.content-block p { color: var(--muted); font-size: 16px; line-height: 1.8; margin: 16px 0 0; }
+.content-block--onpurple p { color: var(--purple-200); }
+
+.check-list { list-style: none; margin: 16px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.check-list li { display: flex; gap: 10px; align-items: flex-start; color: var(--muted); font-size: 14.5px; line-height: 1.65; }
+.check-list li::before { content: "✓"; color: var(--purple-500); font-weight: 700; flex: none; line-height: 1.65; }
+.check-list strong { color: var(--ink); font-weight: 600; }
+
+/* ---------- Image placeholder (content pending) ---------- */
+.image-placeholder {
+  min-width: 0; border-radius: 20px; border: 2px dashed var(--purple-300); background: var(--purple-50);
+  padding: clamp(22px, 3vw, 32px); display: flex; flex-direction: column; gap: 14px; justify-content: center;
+}
+.image-placeholder--onpurple { border-color: rgba(255,255,255,0.35); background: rgba(255,255,255,0.06); }
+.image-placeholder__tag {
+  align-self: flex-start; font-family: "Montserrat", sans-serif; font-size: 10.5px; font-weight: 700; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--purple-600); background: var(--purple-100); padding: 5px 12px; border-radius: 999px;
+}
+.image-placeholder--onpurple .image-placeholder__tag { color: var(--white); background: rgba(255,255,255,0.16); }
+.image-placeholder__prompt { color: var(--ink-soft); font-size: 14.5px; line-height: 1.7; margin: 0; }
+.image-placeholder--onpurple .image-placeholder__prompt { color: var(--purple-200); }
+.image-placeholder__filename {
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 13px; color: var(--purple-600);
+  background: var(--white); border: 1px solid var(--purple-100); border-radius: 8px; padding: 8px 12px; word-break: break-all;
+}
+.image-placeholder--onpurple .image-placeholder__filename { color: var(--white); background: rgba(0,0,0,0.18); border-color: rgba(255,255,255,0.2); }
+
 /* ---------- Reduced motion ---------- */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
