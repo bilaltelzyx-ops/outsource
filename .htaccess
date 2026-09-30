@@ -4,33 +4,9 @@
 
 RewriteEngine On
 
-# 1. If someone requests a known page's .html URL directly, send them to the
-#    clean canonical URL (avoids duplicate-content and matches the sitemap).
-RewriteRule ^about-us\.html$ /about-us [R=301,L]
-RewriteRule ^contact-us\.html$ /contact-us [R=301,L]
-RewriteRule ^hipaa-compliance\.html$ /hipaa-compliance [R=301,L]
-RewriteRule ^privacy-policy\.html$ /privacy-policy [R=301,L]
-RewriteRule ^terms-and-conditions\.html$ /terms-and-conditions [R=301,L]
-RewriteRule ^family-medicine-billing\.html$ /family-medicine-billing [R=301,L]
-RewriteRule ^pediatric-billing\.html$ /pediatric-billing [R=301,L]
-RewriteRule ^psychiatric-billing\.html$ /psychiatric-billing [R=301,L]
-RewriteRule ^dental-billing\.html$ /dental-billing [R=301,L]
-RewriteRule ^optometry-billing\.html$ /optometry-billing [R=301,L]
-RewriteRule ^wound-care-billing\.html$ /wound-care-billing [R=301,L]
-RewriteRule ^infusion-billing\.html$ /infusion-billing [R=301,L]
-RewriteRule ^ambulance-billing\.html$ /ambulance-billing [R=301,L]
-RewriteRule ^laboratory-billing\.html$ /laboratory-billing [R=301,L]
-RewriteRule ^medical-billing-new-jersey\.html$ /medical-billing-new-jersey [R=301,L]
-RewriteRule ^medical-billing-kansas\.html$ /medical-billing-kansas [R=301,L]
-RewriteRule ^physician-billing-virginia\.html$ /physician-billing-virginia [R=301,L]
-RewriteRule ^healthcare-outsource-billing\.html$ /healthcare-outsource-billing [R=301,L]
-RewriteRule ^medical-coding-services\.html$ /medical-coding-services [R=301,L]
-RewriteRule ^revenue-cycle-management\.html$ /revenue-cycle-management [R=301,L]
-RewriteRule ^credentialing-services\.html$ /credentialing-services [R=301,L]
-
-# 2. Serve the matching .html file for a clean-URL request (e.g. /about-us
-#    quietly serves about-us.html). Works automatically for any page you add
-#    later — no need to edit this file again.
+# Serve the matching .html file for a clean-URL request (e.g. /about-us
+# quietly serves about-us.html). Works automatically for any page added
+# later — no need to edit this file again.
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
@@ -44,4 +20,5 @@ RewriteRule ^([^.]+)$ $1.html [L]
   ExpiresByType image/svg+xml "access plus 1 month"
   ExpiresByType image/png "access plus 1 month"
   ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 month"
 </IfModule>

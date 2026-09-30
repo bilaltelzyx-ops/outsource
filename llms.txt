@@ -1,49 +1,19 @@
 # Outsource MedClaim
 
-> Outsource MedClaim is a U.S.-based medical billing and revenue cycle management (RCM) company. We provide outsourced medical billing, CPT/ICD-10 coding, denial management, accounts receivable follow-up, credentialing, patient billing, and bilingual virtual medical assistants (VMA) for independent practices, specialty groups, and health systems across all 50 states.
+> Outsource MedClaim is a U.S.-based medical billing and revenue cycle management (RCM) company. We provide outsourced medical billing, CPT/ICD-10 coding, denial management, accounts receivable follow-up, credentialing, and patient billing for independent practices, specialty groups, and health systems across all 50 states.
 
 Key facts:
 - AAPC and AHIMA certified coders and billers
 - 98.5%+ first-pass clean claim rate, denial rates reduced to 4% or below
-- EHR/PM integrations include Epic, Cerner, athenahealth, NextGen, and most custom systems
-- HIPAA and HITECH compliant; Business Associate Agreement (BAA) executed with every client
-- Percentage-of-collections, flat-rate, and custom enterprise pricing models
+- EHR/PM integrations include Epic, athenahealth, Meditech, eClinicalWorks, AdvancedMD, Kareo, and most custom systems
+- HIPAA compliant; Business Associate Agreement (BAA) executed with every client
+- Percentage-of-collections, flat-rate, offshore hybrid, and custom enterprise pricing models
 
 ## Pages
 
-- [Homepage](https://outsourcemedicalbillingservices.us/): Overview of medical billing outsourcing services, pricing, specialties served, results, and FAQs.
-- [About Us](https://outsourcemedicalbillingservices.us/about-us): Company mission, areas of expertise, virtual medical assistant services, and commitments to clients.
-- [Contact Us](https://outsourcemedicalbillingservices.us/contact-us): Contact channels, free revenue performance audit request form, and FAQs.
-- [HIPAA Compliance](https://outsourcemedicalbillingservices.us/hipaa-compliance): Data security framework (administrative, physical, and technical safeguards) and staff training practices.
-- [Privacy Policy](https://outsourcemedicalbillingservices.us/privacy-policy): How practice and patient information is collected, secured, and disclosed.
-- [Terms and Conditions](https://outsourcemedicalbillingservices.us/terms-and-conditions): Service scope, client responsibilities, fees, and termination terms for the RCM/VMA agreement.
-
-## Specialty Billing Services
-
-- [Family Medicine Billing](https://outsourcemedicalbillingservices.us/family-medicine-billing): E/M coding accuracy, CCM/TCM billing, and preventive care billing for family medicine practices.
-- [Pediatric Billing](https://outsourcemedicalbillingservices.us/pediatric-billing): Well-child visit coding, immunization billing, and Medicaid/CHIP billing for pediatric practices.
-- [Psychiatric Billing](https://outsourcemedicalbillingservices.us/psychiatric-billing): Time-based psychotherapy coding, mental health parity compliance, and telepsychiatry billing.
-- [Dental Billing](https://outsourcemedicalbillingservices.us/dental-billing): CDT coding, dental insurance verification, and PPO/out-of-network billing optimization.
-- [Optometry Billing](https://outsourcemedicalbillingservices.us/optometry-billing): Vision plan vs. medical insurance billing, diagnostic imaging coding, and dual-payer AR management.
-- [Wound Care Billing](https://outsourcemedicalbillingservices.us/wound-care-billing): Depth-based debridement coding, skin substitute billing, and chronic wound documentation.
-- [Infusion Billing](https://outsourcemedicalbillingservices.us/infusion-billing): Time-based infusion coding, CMS infusion hierarchy rules, and J-code drug billing.
-- [Ambulance Billing](https://outsourcemedicalbillingservices.us/ambulance-billing): EMS transport coding (HCPCS A-codes), mileage billing, and Medicare ambulance fee schedule compliance.
-- [Laboratory Billing](https://outsourcemedicalbillingservices.us/laboratory-billing): Diagnostic, pathology, and molecular lab billing with LIS/EHR integration.
-
-## Service Pages
-
-- [Healthcare Outsource Billing](https://outsourcemedicalbillingservices.us/healthcare-outsource-billing): General overview of outsourced medical billing services for healthcare providers.
-- [Medical Coding Services](https://outsourcemedicalbillingservices.us/medical-coding-services): Outsourced CPT/ICD-10/HCPCS coding with AAPC/AHIMA-certified coders.
-- [Revenue Cycle Management](https://outsourcemedicalbillingservices.us/revenue-cycle-management): End-to-end RCM services covering the full patient revenue journey.
-- [Credentialing Services](https://outsourcemedicalbillingservices.us/credentialing-services): Provider credentialing, payer enrollment, and CAQH profile management.
-
-## Location Pages
-
-- [Medical Billing New Jersey](https://outsourcemedicalbillingservices.us/medical-billing-new-jersey): Medical billing outsourcing tailored to New Jersey's payer landscape and NJHCQC compliance.
-- [Medical Billing Kansas](https://outsourcemedicalbillingservices.us/medical-billing-kansas): Medical billing outsourcing for Kansas healthcare practices.
-- [Physician Billing Virginia](https://outsourcemedicalbillingservices.us/physician-billing-virginia): Physician billing outsourcing for Virginia medical practices.
+- [Homepage](https://outsourcemedicalbillingservices.us/): Why outsource, cost of in-house billing, full-service capabilities (billing, revenue cycle, technology, credentials), EHR & payer coverage, benefits, in-house vs. outsourcing comparison, HIPAA compliance, specialties served, nationwide coverage, pricing, testimonials, differentiators, FAQs, and a free billing audit request form.
 
 ## Contact
 
 - Phone: (800) 000-0000
-- Email: info@outsourcemedicalbillingservices.us
+- Email: hello@outsourcemedclaim.com
