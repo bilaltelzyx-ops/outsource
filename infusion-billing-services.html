@@ -33,7 +33,7 @@
     <div class="utility-bar__msg">AAPC &amp; AHIMA Certified · All 50 States · 24-48h Claim Submission</div>
     <div class="utility-bar__actions">
       <a href="tel:8000000000" class="utility-bar__call">Call Today: (800) 000-0000</a>
-      <a href="#audit" class="utility-bar__audit">Free Medical Billing Audit →</a>
+      <a href="#audit" class="utility-bar__audit js-cta-popup">Free Medical Billing Audit →</a>
     </div>
   </div>
 </div>
@@ -50,7 +50,7 @@
       <a href="index.html#pricing" class="site-header__link">Pricing</a>
       <a href="index.html#faq" class="site-header__link">FAQ</a>
     </div>
-    <a href="#audit" class="btn btn--primary-solid">Get a Free Billing Audit</a>
+    <a href="#audit" class="btn btn--primary-solid js-cta-popup">Get a Free Billing Audit</a>
 
     <div id="mega-menu" class="mega-menu" hidden>
       <div class="mega-menu__grid">
@@ -61,7 +61,7 @@
           <button type="button" class="mega-menu__rail"><span>Target Audience</span><span class="caret">›</span></button>
           <div class="mega-menu__help">
             <div class="mega-menu__help-title">Not sure where to start?</div>
-            <a href="index.html#audit" class="btn btn--primary btn--sm">Free Billing Audit</a>
+            <a href="index.html#audit" class="btn btn--primary btn--sm js-cta-popup">Free Billing Audit</a>
           </div>
         </div>
         <div class="mega-menu__panel-wrap">
@@ -170,7 +170,7 @@
         <h1 class="hero__title" style="font-size:clamp(34px,4.4vw,54px); line-height:1.08;">Outsource Infusion Billing Services For <em>Accurate Time-Based Coding &amp; Faster Reimbursements</em></h1>
         <p class="hero__lead" style="max-width:62ch;">Time-based CPT rules, drug administration sequencing, and prior authorization requirements for high-cost specialty medications make infusion billing one of the most error-prone areas in healthcare revenue cycle management. Our Outsource Infusion Billing Services specialists manage the full cycle, so your clinical team can focus on patient infusions.</p>
         <div class="hero__actions">
-          <a href="#contact-form" class="btn btn--primary">Request a Free Billing Consultation</a>
+          <a href="#contact-form" class="btn btn--primary js-cta-popup">Request a Free Billing Consultation</a>
           <a href="#services" class="btn btn--outline">See Our Services</a>
         </div>
         <div class="stat-strip" style="margin-top:34px;">
@@ -524,7 +524,7 @@
       </div>
       <div id="audit-form-body">
         <h3>Get Started</h3>
-        <form id="audit-form">
+        <form id="audit-form" class="audit-form">
           <div class="audit-form__grid">
             <input type="text" placeholder="Full Name" required>
             <input type="email" placeholder="Email" required>
@@ -588,7 +588,7 @@
         <a href="index.html#ehr">EHR &amp; EMR Support</a>
         <a href="index.html#pricing">Pricing</a>
         <a href="index.html#faq">FAQ</a>
-        <a href="#audit">Contact</a>
+        <a href="#audit" class="js-cta-popup">Contact</a>
       </div>
     </div>
     <div>
@@ -598,7 +598,7 @@
         <a href="mailto:info@outsourcemedicalbillingservices.us">info@outsourcemedicalbillingservices.us</a>
         <div>Mon–Fri, 8am–7pm ET</div>
       </div>
-      <a href="#audit" class="site-footer__cta">Free Billing Audit</a>
+      <a href="#audit" class="site-footer__cta js-cta-popup">Free Billing Audit</a>
     </div>
   </div>
   <div class="site-footer__bottom">
@@ -610,6 +610,55 @@
     </div>
   </div>
 </footer>
+
+
+<div id="cta-modal-overlay" class="cta-modal-overlay" hidden>
+  <div class="cta-modal" role="dialog" aria-modal="true" aria-labelledby="cta-modal-title">
+    <button type="button" class="cta-modal__close" aria-label="Close">&#10005;</button>
+    <div id="popup-form-success" class="audit-success" hidden>
+      <div class="audit-success__icon">&#10003;</div>
+      <h3>Request received</h3>
+      <p>A billing specialist will reach out within one business day to arrange your free assessment.</p>
+    </div>
+    <div id="popup-form-body">
+      <h3 id="cta-modal-title" style="font-size:26px; font-weight:700; color:#2E2465; margin:0 0 22px; text-align:center; letter-spacing:-0.02em;">Get Started</h3>
+      <form id="popup-audit-form" class="audit-form">
+        <div class="audit-form__grid">
+<input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Phone" required>
+            <input type="text" placeholder="Zip Code">
+            <select>
+              <option>Choose your Services</option>
+              <option>Infusion Billing</option>
+              <option>Medical Billing</option>
+              <option>Medical Credentialing</option>
+              <option>Claim Submission</option>
+              <option>Medical Coding</option>
+              <option>Physician Billing</option>
+              <option>Patient Billing Services</option>
+              <option>Account Receivable Services</option>
+              <option>Prior Authorization</option>
+              <option>Revenue Cycle Management</option>
+              <option>Front Office Management</option>
+              <option>Eligibility Verification</option>
+              <option>Denial Management</option>
+              <option>Medical Billing Audit</option>
+            </select>
+            <select>
+              <option>Preferred Contact Method</option>
+              <option>Email</option>
+              <option>Phone Call</option>
+            </select>
+        </div>
+        <div class="audit-form__field"><input type="text" placeholder="Clinic or Practice Name"></div>
+        <div class="audit-form__field"><textarea rows="5" placeholder="Your Message"></textarea></div>
+        <button type="submit" class="audit-form__submit">Submit <span>&#8594;</span></button>
+      </form>
+      <p class="audit-form__fineprint">Submitting shares no patient data. We execute a BAA before any records are accessed.</p>
+    </div>
+  </div>
+</div>
 
 <script src="assets/js/main.js"></script>
 </body>

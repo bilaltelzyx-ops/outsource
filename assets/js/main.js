@@ -100,11 +100,11 @@ initFaqAccordion("faq-item", "faq-item__trigger", "faq-item__panel", "faq-item__
 initFaqAccordion("faq-divider-item", "faq-divider-item__trigger", "faq-divider-item__panel", "faq-divider-item__sign");
 
 // Free audit lead form — client-side only in this static build
-(function () {
-  var form = document.getElementById("audit-form");
+function initAuditForm(formId, bodyId, successId) {
+  var form = document.getElementById(formId);
   if (!form) return;
-  var body = document.getElementById("audit-form-body");
-  var success = document.getElementById("audit-form-success");
+  var body = document.getElementById(bodyId);
+  var success = document.getElementById(successId);
 
   form.addEventListener("submit", function (e) {
     e.preventDefault();
@@ -118,5 +118,43 @@ initFaqAccordion("faq-divider-item", "faq-divider-item__trigger", "faq-divider-i
     body.hidden = true;
     success.hidden = false;
     success.setAttribute("role", "status");
+  });
+}
+initAuditForm("audit-form", "audit-form-body", "audit-form-success");
+initAuditForm("popup-audit-form", "popup-form-body", "popup-form-success");
+
+// CTA popup modal — opened by any "js-cta-popup" trigger, closed by the
+// close button, a backdrop click, or Escape. Every trigger keeps its
+// original href as a no-JS fallback.
+(function () {
+  var overlay = document.getElementById("cta-modal-overlay");
+  if (!overlay) return;
+  var dialog = overlay.querySelector(".cta-modal");
+  var closeBtn = overlay.querySelector(".cta-modal__close");
+  var triggers = Array.prototype.slice.call(document.querySelectorAll(".js-cta-popup"));
+
+  function openModal(e) {
+    if (e) e.preventDefault();
+    overlay.hidden = false;
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeModal() {
+    overlay.hidden = true;
+    document.body.style.overflow = "";
+  }
+
+  triggers.forEach(function (trigger) {
+    trigger.addEventListener("click", openModal);
+  });
+
+  if (closeBtn) closeBtn.addEventListener("click", closeModal);
+
+  overlay.addEventListener("click", function (e) {
+    if (!dialog.contains(e.target)) closeModal();
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && !overlay.hidden) closeModal();
   });
 })();
