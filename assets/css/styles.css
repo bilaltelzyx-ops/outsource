@@ -531,6 +531,7 @@ img { max-width: 100%; }
 .grid-3up { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(min(100%, max(260px, calc((100% - 32px) / 3))), 1fr)); }
 .grid-4up { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(min(100%, max(220px, calc((100% - 48px) / 4))), 1fr)); }
 .grid-6up { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, max(150px, calc((100% - 60px) / 6))), 1fr)); }
+.grid-5up { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(min(100%, max(210px, calc((100% - 64px) / 5))), 1fr)); }
 
 /* ---------- Icon cards (challenges / services / benefits / specialties / why-choose-us) ---------- */
 .icon-card { border-radius: 16px; padding: clamp(22px, 2.4vw, 28px); min-width: 0; }
@@ -651,6 +652,50 @@ img { max-width: 100%; }
 .breadcrumb a:hover { color: var(--purple-500); }
 .breadcrumb__sep { color: var(--purple-300); }
 .breadcrumb__current { color: var(--ink); font-weight: 500; }
+
+/* ---------- Legal / compliance pages (TOC sidebar, articles, checklists) ---------- */
+.legal-layout { display: flex; flex-wrap: wrap; gap: clamp(28px, 4vw, 56px); align-items: flex-start; }
+.legal-toc { flex: 0 1 250px; min-width: 210px; position: sticky; top: 96px; background: var(--purple-50); border: 1px solid var(--purple-100); border-radius: 18px; padding: 22px; }
+.legal-toc__label { font-family: "Montserrat", sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--purple-500); margin-bottom: 12px; }
+.legal-toc__links { display: grid; gap: 2px; }
+.legal-toc__links a { color: var(--ink-soft); font-size: 14.5px; line-height: 1.45; padding: 9px 12px; border-radius: 10px; display: block; }
+.legal-toc__links a:hover { background: var(--lavender); color: var(--purple-600); }
+.legal-content { flex: 1 1 440px; min-width: 0; display: grid; gap: clamp(32px, 4vw, 52px); }
+
+.legal-article { scroll-margin-top: 96px; padding: clamp(4px, 0.6vw, 8px) 0; }
+.legal-article h2 { font-size: clamp(22px, 2.4vw, 30px); font-weight: 700; letter-spacing: -0.02em; color: var(--ink); margin: 0; line-height: 1.25; }
+.legal-article > p { color: var(--muted); font-size: 16px; line-height: 1.8; margin: 14px 0 0; text-wrap: pretty; }
+.legal-article--dark { background: var(--purple-700); border-radius: 20px; padding: clamp(26px, 3vw, 40px); }
+.legal-article--dark h2 { color: var(--white); }
+.legal-article--dark > p { color: var(--purple-200); }
+.legal-article--highlight { background: var(--purple-50); border: 1px solid var(--purple-100); border-left: 0; border-radius: 20px; padding: clamp(24px, 3vw, 36px); }
+.legal-article--highlight > p { color: var(--ink-soft); }
+
+.legal-checklist { margin-top: 16px; }
+.legal-checklist__item { display: flex; gap: 14px; align-items: flex-start; padding: 16px 0; border-bottom: 1px solid var(--purple-100); }
+.legal-checklist__item:last-child { border-bottom: none; }
+.legal-checklist__mark { width: 22px; height: 22px; border-radius: 50%; background: var(--lavender); color: var(--purple-500); font-size: 11px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex: none; margin-top: 2px; }
+.legal-checklist__item p { margin: 0; color: var(--ink-soft); font-size: 15.5px; line-height: 1.75; }
+.legal-checklist__item strong { color: var(--ink); font-weight: 600; }
+.legal-checklist--dark .legal-checklist__item { border-bottom-color: rgba(255,255,255,0.14); }
+.legal-checklist--dark .legal-checklist__mark { background: rgba(255,255,255,0.12); color: var(--purple-400); }
+.legal-checklist--dark .legal-checklist__item p { color: var(--white); }
+.legal-checklist--cards { display: grid; gap: 12px; }
+.legal-checklist--cards .legal-checklist__item { border-bottom: none; padding: 18px 20px; background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.14); border-radius: 14px; }
+
+.legal-mini-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(230px,100%), 1fr)); gap: 12px; margin-top: 16px; }
+
+.pillar-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(310px,100%), 1fr)); gap: 18px; align-items: stretch; }
+.pillar-card { background: var(--purple-50); border: 1px solid var(--purple-100); border-radius: 20px; padding: clamp(24px, 2.6vw, 32px); display: flex; flex-direction: column; min-width: 0; }
+.pillar-card__head { display: flex; align-items: center; justify-content: space-between; }
+.pillar-card__icon { width: 52px; height: 52px; border-radius: 14px; background: var(--purple-700); display: flex; align-items: center; justify-content: center; flex: none; }
+.pillar-card__icon img { width: 27px; height: 27px; display: block; filter: brightness(0) invert(1); }
+.pillar-card__num { font-family: "Montserrat", sans-serif; font-size: 13px; font-weight: 600; color: var(--purple-400); }
+.pillar-card h3 { font-size: 20px; font-weight: 700; color: var(--ink); margin: 20px 0 8px; }
+.pillar-card > p { color: var(--muted); font-size: 14.5px; line-height: 1.7; margin: 0; }
+.pillar-card .legal-checklist__item p { font-size: 14.5px; }
+
+.hero__lead--quote { font-size: clamp(16px, 1.3vw, 18.5px); line-height: 1.65; color: var(--white); font-weight: 500; margin: 22px 0 0; max-width: 58ch; padding-left: 18px; border-left: 3px solid var(--purple-400); text-wrap: pretty; }
 
 /* ---------- Reduced motion ---------- */
 @media (prefers-reduced-motion: reduce) {
