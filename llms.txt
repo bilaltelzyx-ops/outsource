@@ -5,13 +5,35 @@
 Key facts:
 - AAPC and AHIMA certified coders and billers
 - 98.5%+ first-pass clean claim rate, denial rates reduced to 4% or below
-- EHR/PM integrations include Epic, athenahealth, Meditech, eClinicalWorks, AdvancedMD, Kareo, and most custom systems
+- EHR/PM integrations include Epic, athenahealth, Meditech, eClinicalWorks, AdvancedMD, Kareo, Cerner, NextGen, and most custom systems
 - HIPAA compliant; Business Associate Agreement (BAA) executed with every client
 - Percentage-of-collections, flat-rate, offshore hybrid, and custom enterprise pricing models
 
 ## Pages
 
 - [Homepage](https://outsourcemedicalbillingservices.us/): Why outsource, cost of in-house billing, full-service capabilities (billing, revenue cycle, technology, credentials), EHR & payer coverage, benefits, in-house vs. outsourcing comparison, HIPAA compliance, specialties served, nationwide coverage, pricing, testimonials, differentiators, FAQs, and a free billing audit request form.
+- [About Us](https://outsourcemedicalbillingservices.us/about-us): Company mission, specialized expertise, Virtual Medical Assistant (VMA) services, and our commitments to client practices.
+
+## Specialty Billing Services
+
+- [Infusion Billing Services](https://outsourcemedicalbillingservices.us/infusion-billing-services): Outsource infusion billing services to reduce costs, improve claim accuracy, and accelerate reimbursements. Expert support for coding, claims, and denial management.
+- [Laboratory Medical Billing](https://outsourcemedicalbillingservices.us/laboratory-medical-billing): Get cleaner claims, faster reimbursements, and full-cycle RCM with Outsource Laboratory Medical Billing for high-volume diagnostic, pathology, and molecular labs.
+- [Optometry Billing Services](https://outsourcemedicalbillingservices.us/optometry-billing-services): Increase collections and simplify RCM with Outsource Optometry Billing Services tailored for independent optometrists and multi-location eye care clinics.
+- [Pediatric Billing](https://outsourcemedicalbillingservices.us/pediatric-billing): Improve cash flow and reduce claim denials with pediatric billing. Accurate coding, faster reimbursements, and revenue cycle support.
+- [Psychiatric Billing Services](https://outsourcemedicalbillingservices.us/psychiatric-billing-services): Outsource psychiatric billing services to improve claim accuracy, reduce denials, and maximize reimbursements. Expert billing support for mental health practices.
+- [Wound Care Billing](https://outsourcemedicalbillingservices.us/wound-care-billing): Reduce administrative load and maximize revenue with Outsource Wound Care Billing. Coding, claims submission, denial management, and payer follow-up.
+
+## Location Pages
+
+- [Medical Billing New Jersey](https://outsourcemedicalbillingservices.us/medical-billing-new-jersey): Outsource Medical Billing New Jersey to reduce claim denials, speed up reimbursements, and simplify your practice's revenue cycle.
+- [Medical Billing Services In Kansas](https://outsourcemedicalbillingservices.us/medical-billing-services-kansas): Outsource medical billing services in Kansas to improve revenue, reduce claim denials, and streamline your practice's billing process.
+- [Physician Billing Services Virginia](https://outsourcemedicalbillingservices.us/physician-billing-services-virginia): Outsource physician billing services Virginia to improve claim accuracy, reduce denials, accelerate reimbursements, and streamline revenue cycle management.
+
+## Legal & Compliance
+
+- [HIPAA Compliance](https://outsourcemedicalbillingservices.us/hipaa-compliance): Outsource MedClaim is 100% HIPAA compliant, using AES-256 encryption, MFA, and rigorous staff training to protect PHI and ePHI.
+- [Privacy Policy](https://outsourcemedicalbillingservices.us/privacy-policy): How practice and patient information is collected, secured, and disclosed.
+- [Terms and Conditions](https://outsourcemedicalbillingservices.us/terms-and-conditions): Service scope, client responsibilities, fees, HIPAA/confidentiality, and termination terms for the RCM/VMA agreement.
 
 ## Contact
 
