@@ -70,21 +70,24 @@
 })();
 
 // FAQ accordion — single-open, item 0 open on load
-(function () {
-  var items = Array.prototype.slice.call(document.querySelectorAll(".faq-item"));
+// Works for both the homepage's card-style FAQ (.faq-item) and the
+// inner pages' centered divider-style FAQ (.faq-divider-item).
+function initFaqAccordion(itemClass, triggerClass, panelClass, signClass) {
+  var items = Array.prototype.slice.call(document.querySelectorAll("." + itemClass));
+  if (!items.length) return;
 
   function setOpen(item, isOpen) {
     item.dataset.open = String(isOpen);
-    var trigger = item.querySelector(".faq-item__trigger");
-    var panel = item.querySelector(".faq-item__panel");
-    var sign = item.querySelector(".faq-item__sign");
+    var trigger = item.querySelector("." + triggerClass);
+    var panel = item.querySelector("." + panelClass);
+    var sign = item.querySelector("." + signClass);
     trigger.setAttribute("aria-expanded", String(isOpen));
     panel.hidden = !isOpen;
     sign.textContent = isOpen ? "−" : "+";
   }
 
   items.forEach(function (item, index) {
-    var trigger = item.querySelector(".faq-item__trigger");
+    var trigger = item.querySelector("." + triggerClass);
     trigger.addEventListener("click", function () {
       var willOpen = item.dataset.open !== "true";
       items.forEach(function (other) { setOpen(other, false); });
@@ -92,7 +95,9 @@
     });
     setOpen(item, index === 0);
   });
-})();
+}
+initFaqAccordion("faq-item", "faq-item__trigger", "faq-item__panel", "faq-item__sign");
+initFaqAccordion("faq-divider-item", "faq-divider-item__trigger", "faq-divider-item__panel", "faq-divider-item__sign");
 
 // Free audit lead form — client-side only in this static build
 (function () {
