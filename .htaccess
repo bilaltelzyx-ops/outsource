@@ -4,6 +4,11 @@
 
 RewriteEngine On
 
+# Drop a trailing slash (e.g. /services/ -> /services) so the clean-URL
+# rule below can match. Works for any page, old or new.
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ /$1 [L,R=301]
+
 # Serve the matching .html file for a clean-URL request (e.g. /about-us
 # quietly serves about-us.html). Works automatically for any page added
 # later — no need to edit this file again.

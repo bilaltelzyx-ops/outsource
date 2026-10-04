@@ -11,7 +11,7 @@
   var panelCta = document.getElementById("mega-panel-cta");
   var RAIL_TITLES = ["Services We Offer", "Specialties We Serve", "Locations We Serve", "Who We Work With"];
   var RAIL_CTAS = ["View all Services", "View all Specialties", "View all Locations", "View all Audiences"];
-  var RAIL_HREFS = ["#capabilities", "#specialties", "#audit", "#why"];
+  var RAIL_HREFS = ["services.html", "specialties.html", "locations.html", "#why"];
 
   function closeMenu() {
     menu.hidden = true;

@@ -17,6 +17,7 @@ Key facts:
 
 ## Core Services
 
+- [Services (index)](https://outsourcemedicalbillingservices.us/services): Parent index of all core services — billing, coding, revenue cycle management, and credentialing — with links to each service page.
 - [Healthcare Outsource Billing](https://outsourcemedicalbillingservices.us/healthcare-outsource-billing): Healthcare outsource billing to reduce claim denials, accelerate reimbursements, and streamline claims management across specialties.
 - [Outsource Medical Coding Services](https://outsourcemedicalbillingservices.us/medical-coding-services): Scalable, HIPAA-compliant outsourced medical coding with certified coders to maximize reimbursements and minimize denials.
 - [Revenue Cycle Management Services](https://outsourcemedicalbillingservices.us/revenue-cycle-management-services): HIPAA-compliant outsourced revenue cycle management services from certified coders to reclaim practice revenue.
@@ -24,6 +25,7 @@ Key facts:
 
 ## Specialty Billing Services
 
+- [Specialties (index)](https://outsourcemedicalbillingservices.us/specialties): Parent index of all 9 specialty billing pages, organized by specialty.
 - [Infusion Billing Services](https://outsourcemedicalbillingservices.us/infusion-billing-services): Outsource infusion billing services to reduce costs, improve claim accuracy, and accelerate reimbursements. Expert support for coding, claims, and denial management.
 - [Laboratory Medical Billing](https://outsourcemedicalbillingservices.us/laboratory-medical-billing): Get cleaner claims, faster reimbursements, and full-cycle RCM with Outsource Laboratory Medical Billing for high-volume diagnostic, pathology, and molecular labs.
 - [Optometry Billing Services](https://outsourcemedicalbillingservices.us/optometry-billing-services): Increase collections and simplify RCM with Outsource Optometry Billing Services tailored for independent optometrists and multi-location eye care clinics.
@@ -36,6 +38,7 @@ Key facts:
 
 ## Location Pages
 
+- [Locations (index)](https://outsourcemedicalbillingservices.us/locations): Parent index of all state-level billing pages, organized by location.
 - [Medical Billing New Jersey](https://outsourcemedicalbillingservices.us/medical-billing-new-jersey): Outsource Medical Billing New Jersey to reduce claim denials, speed up reimbursements, and simplify your practice's revenue cycle.
 - [Medical Billing Services In Kansas](https://outsourcemedicalbillingservices.us/medical-billing-services-kansas): Outsource medical billing services in Kansas to improve revenue, reduce claim denials, and streamline your practice's billing process.
 - [Physician Billing Services Virginia](https://outsourcemedicalbillingservices.us/physician-billing-services-virginia): Outsource physician billing services Virginia to improve claim accuracy, reduce denials, accelerate reimbursements, and streamline revenue cycle management.
