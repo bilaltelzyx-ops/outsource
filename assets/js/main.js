@@ -9,9 +9,9 @@
   var panels = Array.prototype.slice.call(menu.querySelectorAll(".mega-menu__panel"));
   var panelTitle = document.getElementById("mega-panel-title");
   var panelCta = document.getElementById("mega-panel-cta");
-  var RAIL_TITLES = ["Services We Offer", "Specialties We Serve", "Locations We Serve", "Who We Work With"];
-  var RAIL_CTAS = ["View all Services", "View all Specialties", "View all Locations", "View all Audiences"];
-  var RAIL_HREFS = ["/services/", "/specialties/", "/locations/", "/index.html#why"];
+  var RAIL_TITLES = ["Services We Offer", "Specialties We Serve", "Locations We Serve"];
+  var RAIL_CTAS = ["View all Services", "View all Specialties", "View all Locations"];
+  var RAIL_HREFS = ["/services/", "/specialties/", "/locations/"];
 
   function closeMenu() {
     menu.hidden = true;
