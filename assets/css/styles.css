@@ -484,6 +484,8 @@ img { max-width: 100%; }
 .site-footer__links a { color: var(--footer-text); }
 .site-footer__phone { color: var(--white); font-weight: 700; font-size: 19px; }
 .site-footer__talk { font-size: 14px; line-height: 1.9; overflow-wrap: anywhere; }
+.site-footer__location { display: flex; align-items: center; gap: 6px; }
+.site-footer__location svg { flex: none; }
 .site-footer__cta { display: inline-block; margin-top: 16px; background: var(--purple-500); color: var(--white); padding: 12px 22px; border-radius: var(--radius-sm); font-weight: 600; font-size: 14px; }
 .site-footer__cta:hover { background: var(--purple-400); color: var(--white); }
 .site-footer__bottom { max-width: var(--container); margin: 36px auto 0; border-top: 1px solid rgba(255,255,255,0.12); padding-top: 20px; display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; font-size: 13px; }
