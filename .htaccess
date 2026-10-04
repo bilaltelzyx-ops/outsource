@@ -4,8 +4,9 @@
 
 RewriteEngine On
 
-# Drop a trailing slash (e.g. /services/ -> /services) so the clean-URL
-# rule below can match. Works for any page, old or new.
+# Drop a trailing slash (e.g. /about-us/ -> /about-us) so the clean-URL
+# rule below can match. Skipped for real directories (services/,
+# specialties/, locations/) so those keep serving their index.html as-is.
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.+)/$ /$1 [L,R=301]
 
